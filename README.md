@@ -41,6 +41,22 @@ React Native, the backend by Filament. Our server using Azure App Services with 
 
 ---
 
+[Ben Rüegg on X](https://x.com/bytebln/status/1662500810771648513):
+
+> My 3 VPS (4GB RAM) handling 13,430,000 requests in 6 hours (thats about 37K/minute). Boring Tech FTW: CDN, Load Balancer, PHP-FPM, Redis
+
+![](./images/ben-ruegg-13m-php-fpm.jpeg)
+
+---
+
+[Sachin Ganesh on X](https://x.com/_SachinGanesh/status/1985324106959475041):
+
+> One of my site handles ~120M requests/month on a $100 server. Laravel + Octane is 🔥
+
+![](./images/sachin-ganesh-120m-octane.png)
+
+---
+
 [Jonty Behr on X](https://x.com/jontybehr/status/1811316493906317636):
 
 > We're handling ~230m requests per month (~88 rps) on Laravel across 3 linked sites. Original codebase was written in Laravel 4, but has been upgraded along the way, and now on L11. Monoliths, fully tested, strong typehints.
@@ -110,6 +126,8 @@ A podcast episode where Arvid says that the biggest choice he made at the beginn
 - [Tighten: Built with Laravel: A curated catalog of organizations using Laravel](https://builtwithlaravel.com/)
 - [Laravel Daily: 10 Large Open-Source Projects Built with Laravel](https://laraveldaily.com/post/large-laravel-open-source-projects)
 - [KrishaWeb: Best Use Cases for Custom Laravel Web Development In 2025](https://www.krishaweb.com/blog/best-laravel-web-development-use-cases-to-explore/)
+- [Laravel Daily: 7 Large Open-Source Projects Built with Plain PHP (No Framework)](https://laraveldaily.com/post/8-large-open-source-php-projects-no-framework)
+- [BuiltWith: 600k+ Websites using Laravel](https://trends.builtwith.com/websitelist/Laravel)
 
 ---
 
