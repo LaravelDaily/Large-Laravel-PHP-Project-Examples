@@ -1,12 +1,69 @@
-This repository has a goal of spreading the word about real **BIG** projects built with PHP/Laravel. 
+This is a list of links to real **big money-making** projects built with Laravel/PHP.
 
-I will share what I find online and on social media, you can contribute with links, just put it in a Pull Request, and I will think how exactly to put it into the repo.
-
-I'm still not sure about the **structure** of this repository. For now, it's all in one README. Depending on the amount of links/posts, I may re-group it somehow or even create a separate website with showcase.
+The goal is to share stories by **real** people, with **real** names, with traffic/revenue numbers if possible.
 
 ---
 
-## Social Media Posts
+## Table of Contents
+
+- [In-Depth Stories/Articles](#in-depth-storiesarticles) (8 articles)
+- [Social Media Posts with Numbers](#social-media-posts-with-numbers) (9 posts)
+- [Lists of Projects Built with Laravel/PHP](#lists-of-projects-built-with-laravelphp) (6 lists)
+- [Smaller/Hobby Projects Built with Laravel/PHP](#smaller-ish-projects-built-with-laravelphp) (10 stories)
+
+---
+
+## In-Depth Stories/Articles
+
+[Jack Ellis from Fathom Analytics: Does Laravel Scale?](https://usefathom.com/blog/does-laravel-scale)
+
+Awesome long article based on the story of Fathom who run Laravel on infrastructure that can handle over 157 billion requests per month (*data from 2022*). For large projects, Laravel will NOT be the main bottleneck.
+
+---
+
+[Mathias Hansen: How Geocodio keeps 300M addresses up to date](https://www.geocod.io/code-and-coordinates/2025-01-13-how-geocodio-keeps-300M-addresses-up-to-date/)
+
+Their entire platform is built on Laravel and uses Laravel Nova. They also make heavy use of queueing using Laravel Horizon.
+
+---
+
+[Mateus Guimarães: Scaling Laravel to 100M+ jobs and 30,000 requests/sec](https://mateusguimaraes.com/posts/scaling-laravel)
+
+How they scaled to over a hundred million jobs and peaks of 30,000 requests/minute a timespan of only twelve hours, using nothing but Laravel, MySQL and Redis.
+
+---
+
+[Redberry: From 0 to 150K Visitors in 4 Hours: Scaling a Real-Time Engagement Platform](https://laravel.com/blog/from-0-to-150k-visitors-in-4-hours-scaling-a-real-time-engagement-platform)
+
+When 150K users flooded a web platform in just 4 hours, with no ramp-up, no downtime, and real-time interaction required, Redberry made it possible using Laravel Cloud, Filament, PostgreSQL, and Pusher. A story from official Laravel Blog.
+
+---
+
+[Matthew Davis: The Power Behind Mumsnet, the UK’s No. 1 Platform for Parents](https://tighten.com/insights/bol-ep7-matthew-davis-mumsnet/)
+
+Business of Laravel Podcast interview with Matt Stauffer from Tighten, they discuss Mumsnet's full-scale transition to Laravel, unpacking the challenges and victories of their ground-up rewrite.
+
+---
+
+[Galahad Creative: From Zero to 35M: The struggles of scaling Laravel with Octane](https://www.galahadsixteen.com/blog/from-zero-to-35m-the-struggles-of-scaling-laravel-with-octane)
+
+The remarkable success of Laravel Octane in our project can be largely credited to its foundation on Swoole, a high-performance, coroutine-based PHP framework. 
+
+---
+
+[Behind the scenes of Lemon Squeezy with Gilbert Pellegrom](https://www.lemonsqueezy.com/blog/lemonhead-gilbert-pellegrom)
+
+Lemon Squeezy payment provider (*later acquired by Stripe*) was built entirely using Laravel and Vue. PHP gets a lot of hate but the language has come a long way in the last ten years and Laravel really makes it a joy to work with.
+
+---
+
+[Arvid Kahl: One Year of Podscan.fm: Reflecting on Tech & Business Decisions](https://thebootstrappedfounder.com/one-year-of-podscan-reflecting-on-tech-business-decisions/)
+
+A podcast episode where Arvid says that the biggest choice he made at the beginning of Podscan was to build this product with the Laravel framework. As of April 2025, Podscan is somewhere north of five to six terabytes in raw storage.
+
+---
+
+## Social Media Posts with Numbers
 
 [Srinath Reddy on X](https://x.com/srinathdudi/status/1983912143457046822): 
 
@@ -79,56 +136,6 @@ React Native, the backend by Filament. Our server using Azure App Services with 
 
 ---
 
-## More In-Depth Stories/Articles
-
-[Jack Ellis from Fathom Analytics: Does Laravel Scale?](https://usefathom.com/blog/does-laravel-scale)
-
-Awesome long article based on the story of Fathom who run Laravel on infrastructure that can handle over 157 billion requests per month (*data from 2022*). For large projects, Laravel will NOT be the main bottleneck.
-
----
-
-[Mathias Hansen: How Geocodio keeps 300M addresses up to date](https://www.geocod.io/code-and-coordinates/2025-01-13-how-geocodio-keeps-300M-addresses-up-to-date/)
-
-Their entire platform is built on Laravel and uses Laravel Nova. They also make heavy use of queueing using Laravel Horizon.
-
----
-
-[Mateus Guimarães: Scaling Laravel to 100M+ jobs and 30,000 requests/sec](https://mateusguimaraes.com/posts/scaling-laravel)
-
-How they scaled to over a hundred million jobs and peaks of 30,000 requests/minute a timespan of only twelve hours, using nothing but Laravel, MySQL and Redis.
-
----
-
-[Redberry: From 0 to 150K Visitors in 4 Hours: Scaling a Real-Time Engagement Platform](https://laravel.com/blog/from-0-to-150k-visitors-in-4-hours-scaling-a-real-time-engagement-platform)
-
-When 150K users flooded a web platform in just 4 hours, with no ramp-up, no downtime, and real-time interaction required, Redberry made it possible using Laravel Cloud, Filament, PostgreSQL, and Pusher. A story from official Laravel Blog.
-
----
-
-[Matthew Davis: The Power Behind Mumsnet, the UK’s No. 1 Platform for Parents](https://tighten.com/insights/bol-ep7-matthew-davis-mumsnet/)
-
-Business of Laravel Podcast interview with Matt Stauffer from Tighten, they discuss Mumsnet's full-scale transition to Laravel, unpacking the challenges and victories of their ground-up rewrite.
-
----
-
-[Galahad Creative: From Zero to 35M: The struggles of scaling Laravel with Octane](https://www.galahadsixteen.com/blog/from-zero-to-35m-the-struggles-of-scaling-laravel-with-octane)
-
-The remarkable success of Laravel Octane in our project can be largely credited to its foundation on Swoole, a high-performance, coroutine-based PHP framework. 
-
----
-
-[Behind the scenes of Lemon Squeezy with Gilbert Pellegrom](https://www.lemonsqueezy.com/blog/lemonhead-gilbert-pellegrom)
-
-Lemon Squeezy payment provider (*later acquired by Stripe*) was built entirely using Laravel and Vue. PHP gets a lot of hate but the language has come a long way in the last ten years and Laravel really makes it a joy to work with.
-
----
-
-[Arvid Kahl: One Year of Podscan.fm: Reflecting on Tech & Business Decisions](https://thebootstrappedfounder.com/one-year-of-podscan-reflecting-on-tech-business-decisions/)
-
-A podcast episode where Arvid says that the biggest choice he made at the beginning of Podscan was to build this product with the Laravel framework. As of April 2025, Podscan is somewhere north of five to six terabytes in raw storage.
-
----
-
 ## Lists of Projects Built with Laravel/PHP
 
 - [Tighten: Built with Laravel: A curated catalog of organizations using Laravel](https://builtwithlaravel.com/)
@@ -136,6 +143,22 @@ A podcast episode where Arvid says that the biggest choice he made at the beginn
 - [KrishaWeb: Best Use Cases for Custom Laravel Web Development In 2025](https://www.krishaweb.com/blog/best-laravel-web-development-use-cases-to-explore/)
 - [Laravel Daily: 7 Large Open-Source Projects Built with Plain PHP (No Framework)](https://laraveldaily.com/post/8-large-open-source-php-projects-no-framework)
 - [BuiltWith: 600k+ Websites using Laravel](https://trends.builtwith.com/websitelist/Laravel)
+- [Success Stories: PHP-Powered Projects by Indian Development Firms](https://dev.to/ezeelive/success-stories-php-powered-projects-by-indian-development-firms-1nai)
+
+---
+
+## Smaller(-ish) Projects Built with Laravel/PHP
+
+- [Guillaume Souillard: How my project Affilisting made $11K in one month with Gumroad and Laravel](https://www.indiehackers.com/post/how-i-made-11k-in-one-month-with-gumroad-and-laravel-a6906b4b90)
+- [Serg Karakhanyan: I made $3,165 in the last 3 days with Larafast.com totaling $4,197 in 20 days](https://www.linkedin.com/posts/karakhanyans_buildinpublic-indiehackers-laravel-activity-7176512167251169281-WFAA/)
+- [Same Serg with Another Project: Directify is 1 year old! $50K in revenue and $1.5 MRR. Based on Laravel + Filament Tenancy](https://x.com/karakhanyanS/status/1983422525905482199)
+- [Bradley Bernard: I built SplitMyExpenses on nights and weekends with Laravel. I launched v2 in December 2023 and it's now killing it!](https://www.indiehackers.com/post/how-i-found-product-market-fit-the-hard-way-after-a-failed-v1-launch-1e05579903)
+- [Edwin Klesman: Building an AI-Empowered SaaS with Laravel: A Founder's Journey to LINQ Me Up](https://www.indiehackers.com/post/building-an-ai-empowered-saas-with-laravel-a-founders-journey-to-linq-me-up-c7d2ac6f8b)
+- [Mohammad Emran: Klasio — A modern LMS for creators, educators & online academies — built on Laravel](https://x.com/phpfour/status/1931032903087247701)
+- [Ahmad Mas: SaaSykit — a Laravel-based boilerplate with everything you need to build an awesome SaaS](https://x.com/AmasCreates/status/1756329860417351748)
+- [Ian Nuttall: I have an SEO SaaS for sale for $30k. It's built in Laravel on the TALL stack.](https://x.com/iannuttall/status/1787844611949416866)
+- [Nuno Maduro: Pinkary's running on PHP 8.3, Laravel, Tailwind, Pest, Livewire, Alpine.](https://x.com/enunomaduro/status/1763210145826214248)
+- [Freek Van der Herten: Oh Dear 2.0 has been launched - initially built on Laravel Spark, and powering status.laravel.com](https://freek.dev/2343-oh-dear-20-has-been-launched)
 
 ---
 
