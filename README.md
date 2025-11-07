@@ -7,7 +7,7 @@ The goal is to share stories by **real** people, with **real** names, with traff
 ## Table of Contents
 
 - [In-Depth Stories/Articles](#in-depth-storiesarticles) (8 articles)
-- [Social Media Posts with Numbers](#social-media-posts-with-numbers) (12 posts)
+- [Social Media Posts with Numbers](#social-media-posts-with-numbers) (15 posts)
 - [Lists of Projects Built with Laravel/PHP](#lists-of-projects-built-with-laravelphp) (8 lists)
 - [Smaller/Hobby Projects Built with Laravel/PHP](#smaller-ish-projects-built-with-laravelphp) (10 stories)
 
@@ -114,12 +114,6 @@ React Native, the backend by Filament. Our server using Azure App Services with 
 
 ---
 
-[Jonty Behr on X](https://x.com/jontybehr/status/1811316493906317636):
-
-> We're handling ~230m requests per month (~88 rps) on Laravel across 3 linked sites. Original codebase was written in Laravel 4, but has been upgraded along the way, and now on L11. Monoliths, fully tested, strong typehints.
-
----
-
 [Al Kafi on LinkedIn](https://www.linkedin.com/posts/al-kafi-sohag_from-breaking-in-regular-usage-to-scaling-activity-7337585766505639936-PM-j/?utm_source=share):
 
 > Our high-performance web application, built with Laravel 12 backend and Blade + Tailwind CSS frontend, handles 109M+ requests monthly.
@@ -133,6 +127,28 @@ React Native, the backend by Filament. Our server using Azure App Services with 
 > Tiny PHP project ([source on GitHub](https://github.com/lwinmaungmaung/election2020)) but hit 2M/day traffic for Myanmar Election 2020.
 
 ![](./images/myanmar-election2020-analytics.png)
+
+---
+
+[Shane on X](https://x.com/digitalshane_/status/1986468002057822293):
+
+> Building [Lucidly.so](https://www.lucidly.so/) with Laravel/React. Hosted on Laravel Cloud and performing wonderfully. Pic is the last 30 days of requests.
+
+![](./images//shane-lucidly-538k.jpeg)
+
+---
+
+[Alin Ionut on X](https://x.com/AlinIonutMusat/status/1986545358818677077):
+
+> Here is a day of request for one of my projects. And Nightwatch sample rate is set at 10% for requests, so real numbers are 10x.
+
+![](./images/alin-nightwatch-103k.jpeg)
+
+---
+
+[Jonty Behr on X](https://x.com/jontybehr/status/1811316493906317636):
+
+> We're handling ~230m requests per month (~88 rps) on Laravel across 3 linked sites. Original codebase was written in Laravel 4, but has been upgraded along the way, and now on L11. Monoliths, fully tested, strong typehints.
 
 ---
 
@@ -150,7 +166,13 @@ React Native, the backend by Filament. Our server using Azure App Services with 
 
 [Derrick Grigg on X](https://x.com/derrickgrigg/status/1986224210692243781):
 
-I originally built [PageProofer](https://PageProofer.com) on CodeIgniter and then switched to Laravel way back on version 7. ~53K users, ~$2.5k MMR, ~$300k lifetime revenue, loaded onto ~500k web pages per day.
+> I originally built [PageProofer](https://PageProofer.com) on CodeIgniter and then switched to Laravel way back on version 7. ~53K users, ~$2.5k MMR, ~$300k lifetime revenue, loaded onto ~500k web pages per day.
+
+---
+
+[Octavio Herrera on X](https://x.com/tavioto/status/1986462758661947693):
+
+> [AddressHub](https://address-hub.com/) is built with Laravel and we are processing millions of requests per month.
 
 ---
 
