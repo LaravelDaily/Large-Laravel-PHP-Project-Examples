@@ -6,8 +6,8 @@ The goal is to share stories by **real** people, with **real** names, with traff
 
 ## Table of Contents
 
-- [In-Depth Stories/Articles](#in-depth-storiesarticles) (8 articles)
-- [Social Media Posts with Numbers](#social-media-posts-with-numbers) (20 posts)
+- [In-Depth Stories/Articles](#in-depth-storiesarticles) (16 articles)
+- [Social Media Posts with Numbers](#social-media-posts-with-numbers) (21 posts)
 - [Lists of Projects Built with Laravel/PHP](#lists-of-projects-built-with-laravelphp) (8 lists)
 - [Smaller/Hobby Projects Built with Laravel/PHP](#smaller-ish-projects-built-with-laravelphp) (10 stories)
 
