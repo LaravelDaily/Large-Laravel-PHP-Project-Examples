@@ -7,7 +7,7 @@ The goal is to share stories by **real** people, with **real** names, with traff
 ## Table of Contents
 
 - [In-Depth Stories/Articles](#in-depth-storiesarticles) (8 articles)
-- [Social Media Posts with Numbers](#social-media-posts-with-numbers) (19 posts)
+- [Social Media Posts with Numbers](#social-media-posts-with-numbers) (20 posts)
 - [Lists of Projects Built with Laravel/PHP](#lists-of-projects-built-with-laravelphp) (8 lists)
 - [Smaller/Hobby Projects Built with Laravel/PHP](#smaller-ish-projects-built-with-laravelphp) (10 stories)
 
@@ -199,6 +199,14 @@ React Native, the backend by Filament. Our server using Azure App Services with 
 [Jay Patel on X](https://x.com/jaypatel2406/status/1987097228368871847):
 
 > I have built an entire ERP for 3 security companies in Kenya with Laravel / Vue integrated with an Android application. The system effectively caters for management of HRM, CRM and BI for over 5,000 employees. It has been 5 years since the go-live. Good to see happy clients.
+
+---
+
+[Sabatino Masala](https://x.com/SabatinoMasala/status/2091249528175272128)
+
+> Laravel handles our traffic at Unipage like a champ. Last Friday we handled a burst of 208 requests in a single second as the evening rush kicked off, without breaking a sweat! Laravel has been powering our platform since Laravel 4.2 (~2014) and today we process tens of millions of euros in transactions monthly. Laravel scales
+
+![](./images/sabatino-208reqs-per-second.jpg)
 
 ---
 
