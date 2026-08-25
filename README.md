@@ -63,6 +63,57 @@ A podcast episode where Arvid says that the biggest choice he made at the beginn
 
 ---
 
+[How We Are Processing 1B+ Events Per Month With Minimal Performance Impact](https://laritor.com/blog/processing-1b-events-with-minimal-performance-impact)
+
+A very basic observability processing flow looks like this: a request comes in, the Laravel application processes the request in 200ms, and then the observability package collects the data and sends it to an ingestion server, taking another 100ms. Only after that is the response returned to the user. That means the total response time becomes 300ms, where 200ms is actual request processing and 100ms is the user waiting for observability ingestion to complete.
+
+---
+
+[How Sportmonks Handles 600M API Requests a Week on Laravel Cloud](https://laravel.com/cloud/customer-stories/how-sportmonks-handles-600m-api-requests-a-week-on-laravel-cloud)
+
+Today, Sportmonks runs 12 applications on Laravel Cloud, serving sports data to more than 100,000 registered customers worldwide, with no infrastructure failures since going live.
+
+---
+
+[Nightwatch Found 78K Exceptions in 2.7B Events on Forge](https://laravel.com/blog/nightwatch-found-78k-exceptions-in-27b-events-on-forge)
+
+This internal test helped us prepare Nightwatch for launch and greatly improved Forge’s performance.
+
+---
+
+[Laravel at scale](https://medium.com/streetgroup/laravel-at-scale-a418fc660a2f)
+
+One of the biggest technical challenges for Street has been migrations at scale, how do you change a table queried thousands of times a second?
+
+---
+
+[From Zero to 35M: The struggles of scaling Laravel with Octane](https://www.galahadsixteen.com/blog/from-zero-to-35m-the-struggles-of-scaling-laravel-with-octane)
+
+This blog post aims to share my experience using Laravel Octane with OpenSwoole to scale our system, enabling it to handle more than 35 million requests per day. I'll also discuss the challenges I encountered as a direct result of this increased traffic.
+
+---
+
+[How I plan on scaling my Laravel (PHP) application](https://medium.com/@vincent-bean/how-i-plan-on-scaling-my-laravel-php-application-a9cc399f2f96)
+
+As a solo developer I want to spend as little money as possible in the early stages of this project which is why I host on a cheap VPS.
+But I do want to be prepared for what comes next, when this project grows I need to have a plan on scaling the hosting of this application.
+
+---
+
+[How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank)
+
+This one has been a long time coming. Like really long. It's been in the back of my head for months on end. But the day is finally here. I'm super happy to share the details of how do we actually scale Treblle without going bankrupt in the process.
+
+---
+
+[How We Scaled Our Laravel App During a Business Expo: From PHP Artisan to PHP-FPM + Nginx](https://myappstore.org.in/blog/anup-sharma/how-we-scaled-our-laravel-app-during-a-business-expo-from-php-artisan-to-php-fpm-nginx/)
+
+The application was unable to handle the surge in traffic. Registrations were stalling, check-in queues were getting longer, and there was mounting pressure to resolve the issue before attendees lost patience.
+
+At first, it looked like a server resource issue. But on deeper investigation, we uncovered the real problem.
+
+---
+
 ## Social Media Posts with Numbers
 
 [Srinath Reddy on X](https://x.com/srinathdudi/status/1983912143457046822): 
@@ -207,6 +258,12 @@ React Native, the backend by Filament. Our server using Azure App Services with 
 > Laravel handles our traffic at Unipage like a champ. Last Friday we handled a burst of 208 requests in a single second as the evening rush kicked off, without breaking a sweat! Laravel has been powering our platform since Laravel 4.2 (~2014) and today we process tens of millions of euros in transactions monthly. Laravel scales
 
 ![](./images/sabatino-208reqs-per-second.jpg)
+
+---
+
+[𝗦𝗰𝗮𝗹𝗶𝗻𝗴 𝘁𝗼 𝟭.𝟱𝗠 𝗗𝗮𝗶𝗹𝘆 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝘀 𝗼𝗻 𝗮 𝗦𝗶𝗻𝗴𝗹𝗲 𝗦𝗲𝗿𝘃𝗲𝗿: 𝗔 𝗥𝗲𝗮𝗹-𝗪𝗼𝗿𝗹𝗱 𝗢𝗽𝘁𝗶𝗺𝗶𝘇𝗮𝘁𝗶𝗼𝗻 𝗦𝘁𝗼𝗿𝘆](https://www.linkedin.com/posts/abbas-alabbas_%F0%9D%97%A6%F0%9D%97%B0%F0%9D%97%AE%F0%9D%97%B9%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%98%81%F0%9D%97%BC-%F0%9D%9F%AD%F0%9D%9F%B1%F0%9D%97%A0-%F0%9D%97%97%F0%9D%97%AE%F0%9D%97%B6%F0%9D%97%B9%F0%9D%98%86-%F0%9D%97%A5-activity-7395816445445689344-zKEq/)
+
+On one of my projects, the production environment ran on a single server hosting both the database and application. As the user base grew, we hit around 1,000 simultaneous active users, a modest number, perhaps, but challenging when your entire backend runs on just one server with 7 cores and 16GB RAM.
 
 ---
 
