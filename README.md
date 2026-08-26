@@ -81,7 +81,7 @@ This internal test helped us prepare Nightwatch for launch and greatly improved 
 
 ---
 
-[Laravel at scale](https://medium.com/streetgroup/laravel-at-scale-a418fc660a2f)
+[StreetGroup: Laravel at scale](https://medium.com/streetgroup/laravel-at-scale-a418fc660a2f)
 
 One of the biggest technical challenges for Street has been migrations at scale, how do you change a table queried thousands of times a second?
 
@@ -253,7 +253,7 @@ React Native, the backend by Filament. Our server using Azure App Services with 
 
 ---
 
-[Sabatino Masala](https://x.com/SabatinoMasala/status/2091249528175272128)
+[Sabatino Masala on X](https://x.com/SabatinoMasala/status/2091249528175272128)
 
 > Laravel handles our traffic at Unipage like a champ. Last Friday we handled a burst of 208 requests in a single second as the evening rush kicked off, without breaking a sweat! Laravel has been powering our platform since Laravel 4.2 (~2014) and today we process tens of millions of euros in transactions monthly. Laravel scales
 
@@ -261,7 +261,7 @@ React Native, the backend by Filament. Our server using Azure App Services with 
 
 ---
 
-[𝗦𝗰𝗮𝗹𝗶𝗻𝗴 𝘁𝗼 𝟭.𝟱𝗠 𝗗𝗮𝗶𝗹𝘆 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝘀 𝗼𝗻 𝗮 𝗦𝗶𝗻𝗴𝗹𝗲 𝗦𝗲𝗿𝘃𝗲𝗿: 𝗔 𝗥𝗲𝗮𝗹-𝗪𝗼𝗿𝗹𝗱 𝗢𝗽𝘁𝗶𝗺𝗶𝘇𝗮𝘁𝗶𝗼𝗻 𝗦𝘁𝗼𝗿𝘆](https://www.linkedin.com/posts/abbas-alabbas_%F0%9D%97%A6%F0%9D%97%B0%F0%9D%97%AE%F0%9D%97%B9%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%98%81%F0%9D%97%BC-%F0%9D%9F%AD%F0%9D%9F%B1%F0%9D%97%A0-%F0%9D%97%97%F0%9D%97%AE%F0%9D%97%B6%F0%9D%97%B9%F0%9D%98%86-%F0%9D%97%A5-activity-7395816445445689344-zKEq/)
+[Scaling to 1.5M Daily Requests on a Single Server: A Real-World Optimization Story](https://www.linkedin.com/posts/abbas-alabbas_%F0%9D%97%A6%F0%9D%97%B0%F0%9D%97%AE%F0%9D%97%B9%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%98%81%F0%9D%97%BC-%F0%9D%9F%AD%F0%9D%9F%B1%F0%9D%97%A0-%F0%9D%97%97%F0%9D%97%AE%F0%9D%97%B6%F0%9D%97%B9%F0%9D%98%86-%F0%9D%97%A5-activity-7395816445445689344-zKEq/)
 
 On one of my projects, the production environment ran on a single server hosting both the database and application. As the user base grew, we hit around 1,000 simultaneous active users, a modest number, perhaps, but challenging when your entire backend runs on just one server with 7 cores and 16GB RAM.
 
