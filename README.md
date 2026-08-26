@@ -63,7 +63,7 @@ A podcast episode where Arvid says that the biggest choice he made at the beginn
 
 ---
 
-[How We Are Processing 1B+ Events Per Month With Minimal Performance Impact](https://laritor.com/blog/processing-1b-events-with-minimal-performance-impact)
+[Serg: How We Are Processing 1B+ Events Per Month With Minimal Performance Impact](https://laritor.com/blog/processing-1b-events-with-minimal-performance-impact)
 
 A very basic observability processing flow looks like this: a request comes in, the Laravel application processes the request in 200ms, and then the observability package collects the data and sends it to an ingestion server, taking another 100ms. Only after that is the response returned to the user. That means the total response time becomes 300ms, where 200ms is actual request processing and 100ms is the user waiting for observability ingestion to complete.
 
@@ -75,38 +75,38 @@ Today, Sportmonks runs 12 applications on Laravel Cloud, serving sports data to 
 
 ---
 
-[Nightwatch Found 78K Exceptions in 2.7B Events on Forge](https://laravel.com/blog/nightwatch-found-78k-exceptions-in-27b-events-on-forge)
+[Jess Archer: Nightwatch Found 78K Exceptions in 2.7B Events on Forge](https://laravel.com/blog/nightwatch-found-78k-exceptions-in-27b-events-on-forge)
 
 This internal test helped us prepare Nightwatch for launch and greatly improved Forge’s performance.
 
 ---
 
-[StreetGroup: Laravel at scale](https://medium.com/streetgroup/laravel-at-scale-a418fc660a2f)
+[Max: StreetGroup: Laravel at scale](https://medium.com/streetgroup/laravel-at-scale-a418fc660a2f)
 
 One of the biggest technical challenges for Street has been migrations at scale, how do you change a table queried thousands of times a second?
 
 ---
 
-[From Zero to 35M: The struggles of scaling Laravel with Octane](https://www.galahadsixteen.com/blog/from-zero-to-35m-the-struggles-of-scaling-laravel-with-octane)
+[Michael: From Zero to 35M: The struggles of scaling Laravel with Octane](https://www.galahadsixteen.com/blog/from-zero-to-35m-the-struggles-of-scaling-laravel-with-octane)
 
 This blog post aims to share my experience using Laravel Octane with OpenSwoole to scale our system, enabling it to handle more than 35 million requests per day. I'll also discuss the challenges I encountered as a direct result of this increased traffic.
 
 ---
 
-[How I plan on scaling my Laravel (PHP) application](https://medium.com/@vincent-bean/how-i-plan-on-scaling-my-laravel-php-application-a9cc399f2f96)
+[Vincent Bean: How I plan on scaling my Laravel (PHP) application](https://medium.com/@vincent-bean/how-i-plan-on-scaling-my-laravel-php-application-a9cc399f2f96)
 
 As a solo developer I want to spend as little money as possible in the early stages of this project which is why I host on a cheap VPS.
 But I do want to be prepared for what comes next, when this project grows I need to have a plan on scaling the hosting of this application.
 
 ---
 
-[How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank)
+[Vedran Cindrić: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank)
 
 This one has been a long time coming. Like really long. It's been in the back of my head for months on end. But the day is finally here. I'm super happy to share the details of how do we actually scale Treblle without going bankrupt in the process.
 
 ---
 
-[How We Scaled Our Laravel App During a Business Expo: From PHP Artisan to PHP-FPM + Nginx](https://myappstore.org.in/blog/anup-sharma/how-we-scaled-our-laravel-app-during-a-business-expo-from-php-artisan-to-php-fpm-nginx/)
+[Anup Sharma: How We Scaled Our Laravel App During a Business Expo: From PHP Artisan to PHP-FPM + Nginx](https://myappstore.org.in/blog/anup-sharma/how-we-scaled-our-laravel-app-during-a-business-expo-from-php-artisan-to-php-fpm-nginx/)
 
 The application was unable to handle the surge in traffic. Registrations were stalling, check-in queues were getting longer, and there was mounting pressure to resolve the issue before attendees lost patience.
 
